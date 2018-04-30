@@ -24,14 +24,12 @@ pub fn largest_prime_factor(n: u64) -> u64 {
 }
 
 
-
-
 #[cfg(test)]
 mod tests {
     use largest_prime_factor;
 
     #[test]
     fn it_works() {
-        assert_eq!(largest_prime_factor(13195), 29);
+        assert_eq!(largest_prime_factor(13_195), 29);
     }
 }

@@ -31,8 +31,8 @@ pub fn largest_palindrome_product(digits: u32) -> Option<u64> {
         return None;
     }
     let mut acc_max_palindrome = 0;
-    'outside: for i in &v {
-        'inside: for j in &v {
+    for i in &v {
+        for j in &v {
             let mut temp = i * j;
             if is_number_palindrome(temp) && temp > acc_max_palindrome {
                 acc_max_palindrome = temp;

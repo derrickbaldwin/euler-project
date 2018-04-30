@@ -34,7 +34,6 @@ pub fn sum_even_fibs_below_number(n: i64) -> i64 {
     Fibonacci::new().take_while(|x| x < &n)
                     .filter(|x| x % 2 == 0)
                     .sum()
-
 }
 
 

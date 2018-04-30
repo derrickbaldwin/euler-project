@@ -18,18 +18,6 @@ pub fn multiples_of_3_and_5(n: i64) -> i64 {
           .sum()
 }
 
-pub fn multiples_of_3_and_5_v2(n: i64) -> i64 {
-    let mut total: i64 = 0;
-    let mut i: i64 = 3;
-    while i < n {
-        if i % 3 == 0 || i % 5 == 0 {
-            total += i;
-        }
-        i += 1;
-    }
-    total
-}
-
 
 #[cfg(test)]
 mod tests {
