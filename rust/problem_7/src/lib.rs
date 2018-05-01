@@ -52,7 +52,7 @@ mod tests {
     }
 
     #[test]
-    fn n_prime_number_for_6th() {
+    fn prime_number_6th() {
         assert_eq!(nth(6), Some(13));
     }
 }
