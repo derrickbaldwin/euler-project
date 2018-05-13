@@ -1,0 +1,7 @@
+[package]
+name = "problem_15"
+version = "0.1.0"
+authors = ["dbaldwin <baldwin.derrick@gmail.com>"]
+
+[dependencies]
+bigint = "4"
