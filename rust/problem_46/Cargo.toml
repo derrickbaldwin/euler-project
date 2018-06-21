@@ -1,0 +1,7 @@
+[package]
+name = "problem_46"
+version = "0.1.0"
+authors = ["dbaldwin <baldwin.derrick@gmail.com>"]
+
+[dependencies]
+primes="0.2"
