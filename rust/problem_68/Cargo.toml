@@ -1,0 +1,8 @@
+[package]
+name = "problem_68"
+version = "0.1.0"
+authors = ["dbaldwin <baldwin.derrick@gmail.com>"]
+
+[dependencies]
+permutohedron="0.2"
+itertools="0.7"
